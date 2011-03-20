@@ -7,8 +7,46 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
+  <div id="header">
+    <div class="content">
+      <div id="logo">
+        <h1>Healer Quest</h1>
+      </div>
+      <div id="topnav">
+        <ul>
+          <li><%= link_to 'Home', root_path %></li>
+          <li><%= link_to 'About', root_path %></li>
+          <li><%= link_to 'Account', root_path %></li>
+        </ul>
+      </div> <!-- #topnav -->
+    </div> <!-- .content -->
+    <div style="clear:both"></div>
+  </div> <!-- #header -->
 
-<%= yield %>
+  <div id="marketing">
+    <div class="content">
+      <h1>Play now!</h1>
+    </div> <!-- .content -->
+  </div> <!-- #marketing -->
 
+  <div id="subnav">
+    <div class="content">
+      <h1>Compete to win</h1>
+    </div> <!-- .content -->
+  </div> <!-- #subnav -->
+
+  <div id="main">
+    <div class="content">
+      <%= yield %>
+    </div> <!-- .content -->
+  </div> <!-- #main -->
+
+  <div id="footer">
+    <div class="content">
+      <span>&copy;Healer Quest</span> | 
+      <span>facebook</span> | 
+      <span>twitter</span>
+    </div> <!-- .content -->
+  </div> <!-- #footer -->
 </body>
 </html>
