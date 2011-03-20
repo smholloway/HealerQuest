@@ -1,0 +1,82 @@
+html, body {
+  color: #333;
+  background: #FFF;
+  font-family: 'Helvetica Neue',arial,helvetica,sans-serif;
+}
+
+#header {
+  color: #FFF;
+  background: #15293D;
+  padding: 10px;
+}
+
+#logo {
+  float: left;
+}
+#logo h1 {
+  font-family: georgia, serif;
+  font-size: 36px;
+  letter-spacing: 150%;
+  text-shadow: 1px 1px 1px #222222;
+}
+
+#topnav {
+  float: right;
+  height: 36px;
+  line-height: 36px;
+}
+#topnav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+#topnav li {
+  display: inline;
+  margin: 0;
+}
+#topnav li a {
+  display: inline;
+  padding: 5px;
+  color: #FFF;
+  text-decoration: none;
+  width: 100%;
+}
+#topnav li a:hover {
+  background-color: #0F1B27;
+  color: #FFF;
+}
+
+#marketing {
+  text-align: center;
+  color: #FFF;
+  background: #285688;
+  padding: 10px;
+}
+
+#subnav {
+  color: #FFF;
+  background: #A7C4DF;
+  padding: 10px;
+}
+
+#main {
+  color: #333;
+  background: #FFF;
+  padding: 10px;
+}
+
+#footer {
+  text-align: center;
+  color: #333;
+  background: #FFF;
+  padding: 10px;
+  border-top: 1px solid #CCC;
+  font-size: smaller;
+  font-variant: small-caps;
+}
+
+.content {
+  width: 960px;
+  margin: auto;
+}
