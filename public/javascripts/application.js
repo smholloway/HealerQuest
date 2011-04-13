@@ -86,11 +86,13 @@ $(document).ready(function() {
     alert('unit frames clicked');
     var id_value_string = $(this).html();
 
-    if (id_value_string === "") {
-      //do nothing
-    } else {
-      //do nothing
-    }
+    return false;
+  });
+
+  $("#spells .spell").live('click', function () {
+    alert('spells clicked');
+    var id_value_string = $(this).html();
+
     return false;
   });
 
