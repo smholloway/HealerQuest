@@ -66,6 +66,12 @@ html, body {
   padding: 10px;
 }
 
+#unit-frames {
+}
+#unit-frames img, #spells img {
+  opacity: 1.0;
+}
+
 #footer {
   text-align: center;
   color: #333;
